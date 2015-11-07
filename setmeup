@@ -1,0 +1,5 @@
+#!/bin/bash
+
+hadoop jar ./target/calculateall-1.0.jar datasets/dataSet.txt $(date +%s)
+
+#hadoop jar ./target/bdp-1.0.jar dataSet1.txt $(date +%s)
